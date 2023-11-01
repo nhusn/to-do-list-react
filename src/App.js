@@ -32,7 +32,7 @@ function App() {
     <div className='w-100'>
       <div className='d-flex justify-content-center align-items-center flex-column w-100'>
         <div style={{width:'13%'}}>
-          <h3 style={{ marginTop: "160px",borderRadius:"70px" }} className='bg-light px-3 py-2 text-center text-danger'>TODO LIST</h3>
+          <h3 style={{ marginTop: "160px",borderRadius:"70px" }} className='bg-light px-3 py-2 text-center text-danger fw-bold'>TODO LIST</h3>
         </div>
         <div className='d-flex w-50 justify-content-center align-items-center mt-5'>
           <input style={{ width: "80%", marginLeft: "-2%", borderRadius:"40px" }} type="text" className='form-control fw-bold py-3' onChange={(e)=>setTodo(e.target.value)} value={todo}/>
